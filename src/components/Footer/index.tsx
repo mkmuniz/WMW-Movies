@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-black text-white rounded-lg shadow font-bold mt-12">
-        <div className="w-full max-w-screen-xl mx-auto">
+      <footer className="bg-black text-white rounded-lg shadow font-bold mt-12 w-full">
+        <div className="w-full">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
               href="/"

@@ -13,7 +13,7 @@ export default function NavBar() {
     <>
       <SideBar status={isOpen} handleStatusSideBar={handleStatusSideBar} />
       <nav className="bg-black w-full z-20 top-0 start-0 font-bold">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="flex flex-wrap items-center justify-between mx-auto p-4">
           <button
             className="sm:hidden flex flex-col h-12 w-12 z-20 rounded justify-center items-center group"
             onClick={handleStatusSideBar}
